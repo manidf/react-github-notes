@@ -47,7 +47,6 @@
 	'use strict';
 
 	var React = __webpack_require__(1);
-	var ReactDom = __webpack_require__(158);
 
 	var Main = React.createClass({
 		displayName: 'Main',
@@ -61,7 +60,7 @@
 		}
 	});
 
-	ReactDom.render(React.createElement(Main, null), document.getElementById('app'));
+	module.exports = Main;
 
 /***/ },
 /* 1 */
@@ -19668,15 +19667,6 @@
 
 	module.exports = deprecated;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
-
-/***/ },
-/* 158 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	module.exports = __webpack_require__(3);
-
 
 /***/ }
 /******/ ]);
